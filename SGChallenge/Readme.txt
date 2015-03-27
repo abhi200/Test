@@ -1,0 +1,5 @@
+Note:
+
+I have written a simple program with a 'Statistics' class. This class basically handles the core logic of the program, including the parsing and returning the year with max population count. I wrote it this way to make it modular and easier to add new components later. The algorithm handles a few special cases like invalid data from the dataset, multiple years with max population and any 100 year spans ( excluding the final year). The first line in the text file(data set file) contains [start year]:[number of entries] for easier and a more generic parser logic. The rest of the lines in the file are expected to be in the format of "[Name]:[Birth Year],[Death Year]", without any spaces.
+
+The dataset is in "stats.txt". It is included with an example syntax for how the text is expected by the parser. The exe file with the "stats.txt" is included in the Debug folder. The output for the given data is the year "1906". It should also print out the number of years with equivalent max population. 
